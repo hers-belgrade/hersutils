@@ -1,0 +1,8 @@
+{
+	"name" : "hers_utils",
+	"main" : "index.js",
+	"repository" : {
+		"type":"git",
+		"url":"hersrepos:hers_repos/node_modules/hers_utils"
+	}
+}

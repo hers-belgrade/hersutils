@@ -1,4 +1,4 @@
-var S = require ('./struct_utils');
+var S = require ('./structutils');
 module.exports={
 	safecb:function safecb(cb){
 		return S.isFunction(cb) ? cb : function (){}

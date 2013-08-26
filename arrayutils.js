@@ -1,4 +1,4 @@
-var SORT = require ('./common_sort');
+var SORT = require ('./commonsort');
 
 function appendHashToArry(hash,arry,hashfieldarry){
   var hfl = hashfieldarry.length;

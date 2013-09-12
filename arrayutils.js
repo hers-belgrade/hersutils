@@ -1,4 +1,6 @@
-var SORT = require ('./commonsort');
+var SORT = {
+	numeric_sort: function  (a,b) {return a-b;}
+}
 
 function appendHashToArry(hash,arry,hashfieldarry){
   var hfl = hashfieldarry.length;
@@ -149,5 +151,6 @@ module.exports={
   numeric_sort:numeric_sort,
   generate_numeric: generate_numeric,
   intersect:intersect,
-  reject:reject
+  reject:reject,
+	SORT : SORT
 };

@@ -1,3 +1,4 @@
+function isArray(a) { return 'object' === typeof(a) && a instanceof Array }
 function defined(obj) { return (typeof (obj) !== 'undefined'); }
 function notdefined(obj) {return !defined(obj)};
 function doesKeyExist (obj,key) { return (key in obj); }
@@ -6,6 +7,8 @@ function isString (obj) {return (typeof(obj) === 'string')}
 function isFunction(obj){return (typeof(obj) === 'function')}
 function isNull (obj) {return obj === null};
 function parseBoolean (str) { return (isString(str))?(str === 'true'):undefined; }
+
+
 function cNumber (val) {
   try {
     val = parseFloat(val);

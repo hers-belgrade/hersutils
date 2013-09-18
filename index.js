@@ -5,5 +5,6 @@ module.exports = {
 	func : require ('./funcutils'),
 	struct: require('./structutils'),
 	file: require('./fileutils'),
-	HookCollection: require('./hookcollection')
+	HookCollection: require('./hookcollection'),
+	StringUtils: require('./stringutils')
 }

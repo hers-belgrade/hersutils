@@ -1,6 +1,5 @@
 module.exports = {
 	arry : require ('./arrayutils'),
-	sort : require ('./commonsort'),
 	comparison : require('./comparison'),
 	func : require ('./funcutils'),
 	struct: require('./structutils'),
